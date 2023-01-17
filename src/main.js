@@ -1,5 +1,3 @@
-import { Board } from "./ui/board.js"
-
 const resize_fn = () => {
     document.getElementById("squares").style = ""
     let _size = Math.min(Math.min(document.getElementById("field").offsetHeight, document.getElementById("field").offsetWidth) - 30, document.body.offsetHeight * 0.9)

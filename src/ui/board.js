@@ -1,4 +1,4 @@
-export class Board {
+class Board {
     constructor(self) {
         self.grid = new Array(64)
     }
